@@ -1,0 +1,266 @@
+.letter_o{
+    color: #D7DB13;
+}
+.links{
+    color: white;
+    text-decoration: none;
+}
+.btn-watchvideo{
+    padding: 10px 25px 10px 25px ;
+    border-radius: 23px;
+    font-size: 15px;
+    color: white;
+    background-color: #B6C22B;
+    border:  none;
+  
+    }
+    .main-text{
+        width: 127%;
+        font-size: 88%;
+        margin-left: 0.5%;
+       }
+.howthingswork{
+    display: flex;
+    gap: 10%;
+    font-size: 102%;
+    line-height: 123%;
+    margin-left: -6%;
+}
+body{
+    margin-left: 10%;
+
+}
+.text{
+    width: 45%;
+}
+.tiktok_picture img{
+    margin-top: -6%;
+    margin-left: -1%;
+    width:640px;
+
+}
+.video-section-two{
+    padding-top: 20px;
+    gap: 10%;
+    /* justify-content:space-between; */
+    display: flex;
+    flex-direction: row ;
+    gap: 1%;
+}
+.video-section-one{
+    padding-top: 20px;
+    gap: 10%;
+    /* justify-content:space-between; */
+    display: flex;
+    flex-direction: row ;
+    gap: 1%;
+}
+
+p{
+    font-size: 20px;
+}
+/* .btn-videos{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 5%;
+} */
+
+@media  screen and (min-width:300px) and (max-width:390px) {
+   .howthingswork{
+    display: block;
+   }
+   .tiktok_picture img{
+    margin-left: -22%;
+    width: 400px;
+   }
+   .text{
+    width: 340px;
+    font-size: 68%;
+    margin-left: 5%;
+    line-height: 194%;
+   }
+   .main-text{
+    width: 95%;
+    font-size: 68%;
+   }
+   body{
+    margin-left: 5%;
+   }
+   .video-section-one{
+    padding-top: 20px;
+    gap: 10%;
+    /* justify-content:space-between; */
+    display: grid;
+}
+.video-section-two{
+    padding-top: 30px;
+    gap: 10%;
+    /* justify-content:space-between; */
+    display: grid;
+}
+}
+@media  screen and (min-width:390px) and (max-width:400px) {
+    .howthingswork{
+        display: block;
+       }
+       .tiktok_picture img{
+        margin-left: -22%;
+        width: 400px;
+       }
+       .text{
+        width: 300px;
+        font-size: 108%;
+        margin-left: 5%;
+        line-height: 144%;
+       }
+       
+       
+}
+
+@media  screen and (min-width:400px) and (max-width:500px) {
+    .howthingswork{
+     display: block;
+    }
+    .tiktok_picture img{
+     margin-left: -19%;
+     width: 400px;
+    }
+    .text{
+     width: 280px;
+     font-size: 108%;
+     margin-left: 5%;
+     line-height: 144%;
+    }
+    .video-section-one{
+        padding-top: 20px;
+        gap: 10%;
+        /* justify-content:space-between; */
+        display: grid;
+    }
+    .video-section-two{
+        padding-top: 30px;
+        gap: 10%;
+        /* justify-content:space-between; */
+        display: grid;
+    }
+ 
+ }
+@media  screen and (min-width:500px) and (max-width:800px) {
+    .howthingswork{
+        display: block;
+        font-size: 102%;
+        line-height: 123%;
+        margin-left: -14%;
+    }
+    .text{
+        margin-left: 20%;
+        font-size: 145%;
+    }
+    .video-section-one{
+        padding-top: 20px;
+        gap: 10%;
+        /* justify-content:space-between; */
+        display: grid;
+    }
+    .video-section-two{
+        padding-top: 30px;
+        gap: 10%;
+        /* justify-content:space-between; */
+        display: grid;
+    }
+    
+}
+@media  screen and (min-width:800px) and (max-width:1000px) {
+    .howthingswork{
+        display: flex;
+        margin-left: -19%;
+        
+    }
+    .tiktok_picture img{
+        width: 600px;
+        margin-left: -4%;
+        margin-top: 5px;
+    }
+    .text{
+        font-size: 133%;
+        margin-left: -19%;
+        line-height: 134%;
+        width: 410px;
+
+    }
+    .main-text{
+        width: 105%;
+        font-size: 68%;
+       }
+}
+@media  screen and (min-width:1000px) and (max-width:1200px) {
+    .howthingswork{
+        display: flex;
+        margin-left: -19%;
+        
+    }
+    .tiktok_picture img{
+        width: 580px;
+        margin-left: 5%;
+        margin-top: 5px;
+    }
+    .text{
+        font-size: 133%;
+        margin-left: -15%;
+        line-height: 134%;
+        width: 450px;
+
+    }
+}
+@media  screen and (min-width:540px) and (max-width:600px) {
+    .howthingswork{
+        display: block;
+        margin-left: -19%;
+        gap: 4%;
+
+    }
+    .tiktok_picture img{
+        width: 490px;
+        margin-left: 20%;
+        height: 350px;
+    }
+    .text{
+        font-size: 105%;
+        line-height: 138%;
+        width: 75%;
+    }
+    
+}
+@media  screen and (min-width:700px) and (max-width:800px) {
+    .howthingswork{
+        display: block;
+        margin-left: -10%;
+        gap: 4%;
+
+    }
+    .text{
+        font-size: 155%;
+        line-height: 138%;
+        width: 75%;
+        margin-left: 8%;
+    }
+    .tiktok_picture img{
+        margin-left: -9%;
+    }
+
+}
+
+
+@media  screen and (min-width:1280px) and (max-width:2000px) {
+    .howthingswork{
+        display: flex;
+        margin-left: -9%;
+        gap: 4%;
+
+    }
+    .text{
+        font-size: 146%;
+        line-height: 138%;
+        width: 75%;
+    }
+}
