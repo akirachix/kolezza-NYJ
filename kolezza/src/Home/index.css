@@ -1,0 +1,651 @@
+.navBar{
+    display: flex;
+    gap: 15%;
+    padding: 1%;
+    border: none;
+    color: antiquewhite;
+    padding-left: 1%;
+    width: 100%;
+    background-color: rgb(39, 182, 182);
+    position: fixed;
+}
+#nav{
+    display: flex;
+    font-size: 1.5rem;
+    gap: 20%;
+    cursor: pointer;
+    width: 100%;
+}
+.body{
+    display: flex;
+    gap: 6%;
+    padding-top: 5%;
+    margin-left: 3.5%;
+}
+.img{
+    border-radius: 15%;
+        border: none;
+        margin-top: 5%;
+        box-shadow: 20px 20px 60px #016a6a, -20px -20px 60px #deaee2;
+        border-radius: 20px;
+}
+h1{
+    font-size: 5rem;
+}
+#o{
+    color: rgb(199, 245, 33);
+
+}
+b{
+    margin-left: 30%;
+    margin-bottom: 50px;
+}
+p{
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+.button{
+    padding: 1.5%;
+    border-radius: 15px;
+    background-color: rgb(173, 212, 31);
+    color:white;
+    font-size: 1rem;
+    border: none;
+    margin-top: 5%;
+    
+}
+.logo{
+    width:60%;
+    margin-top: -5%;
+}
+@media screen and (min-width:100px) and (max-width:280px){
+    .navBar{
+
+        display: flex;
+        gap: 0;
+        padding: 1%;
+        border: none;
+        color: antiquewhite;
+        padding-left: 0;
+        background-color: rgb(39, 182, 182);
+    }
+    #nav{
+        display: flex;
+        font-size: 0.75rem;
+        gap: 8%;
+        margin-top: 5%;
+        width: auto;
+    }
+    .body{
+        display: flex;
+        gap: 6%;
+        flex-direction: column;
+        padding-top: 5%;
+        margin-left: 0;
+    }
+    .img{
+        border-radius: 15%;
+        width: 10em;
+        height: auto;
+        border: none;
+        margin-left: 20%;
+        margin-top: 15%;
+        box-shadow: 20px 20px 60px #9EAFAF, -20px -20px 60px #7DCBC8;
+        border-radius: 20px;
+    }
+    h1{
+        font-size: 2rem;
+    }
+    #o{
+        color: rgb(199, 245, 33);
+    
+    }
+    b{
+        margin-left: 0.5%;
+        font-size: 1rem;
+        margin-bottom: 50px;
+    }
+    p{
+        font-size: 0.5rem;
+        font-weight: lighter;
+    }
+    .button{
+        padding: 1.5%;
+        border-radius: 15px;
+        background-color: rgb(173, 212, 31);
+        color:white;
+        font-size: 0.85rem;
+        border: none;
+        margin-top: 5%;
+        
+    }
+    .logo{
+        width:30%;
+        margin-top: 2.5%;
+    }
+}
+@media  screen and (min-width:300px) and (max-width:400px){
+    .navBar{
+
+        display: flex;
+        gap: 5%;
+        padding: 1%;
+        border: none;
+        color: antiquewhite;
+        padding-left: 5%;
+        background-color: rgb(39, 182, 182);
+    }
+    #nav{
+        display: flex;
+        font-size: 1rem;
+        gap: 5%;
+        padding-top: 2%;
+        width: auto;
+    }
+    .body{
+        display: flex;
+        gap: 6%;
+        flex-direction: column;
+        padding-top: 5%;
+        margin-left: 1.5%;
+    }
+    .img{
+        border-radius: 15%;
+        width: 20em;
+        height: auto;
+        border: none;
+        margin-left: 6%;
+        margin-top: 15%;
+        box-shadow: 20px 20px 60px #9EAFAF, -20px -20px 60px #7DCBC8;
+        border-radius: 20px;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    #o{
+        color: rgb(199, 245, 33);
+    
+    }
+    b{
+        margin-left: 0.5%;
+        font-size: 1rem;
+        margin-bottom: 50px;
+    }
+    p{
+        font-size: 1.5rem;
+        font-weight: lighter;
+    }
+    .button{
+        padding: 2.5%;
+        border-radius: 15px;
+        background-color: rgb(173, 212, 31);
+        color:white;
+        font-size: 1rem;
+        border: none;
+        margin-top: 5%;
+        
+    }
+    .logo{
+        width:25%;
+        margin-top: 2%;
+    }
+}
+@media  screen and (min-width:410px) and (max-width:500px){
+    .navBar{
+
+        display: flex;
+        gap: 5%;
+        padding: 1%;
+        border: none;
+        color: antiquewhite;
+        padding-left: 5%;
+        background-color: rgb(39, 182, 182);
+    }
+    #nav{
+        display: flex;
+        font-size: 1.2rem;
+        gap: 5%;
+        width: auto;
+    }
+    .body{
+        display: flex;
+        gap: 6%;
+        flex-direction: column;
+        padding-top: 5%;
+        margin-left: 1.5%;
+    }
+    .img{
+        border-radius: 15%;
+        width: 20em;
+        height: auto;
+        border: none;
+        margin-left: 10%;
+        margin-top: 15%;
+        box-shadow: 20px 20px 60px #9EAFAF, -20px -20px 60px #7DCBC8;
+        border-radius: 20px;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    #o{
+        color: rgb(199, 245, 33);
+    
+    }
+    b{
+        margin-left: 0.5%;
+        font-size: 1rem;
+        margin-bottom: 50px;
+    }
+    p{
+        font-size: 1.5rem;
+        font-weight: lighter;
+    }
+    .button{
+        padding: 2.5%;
+        border-radius: 15px;
+        background-color: rgb(173, 212, 31);
+        color:white;
+        font-size: 1rem;
+        border: none;
+        margin-top: 5%;
+        
+    }
+    .logo{
+        width:25%;
+        margin-top: 2%;
+    }
+}
+@media  screen and (min-width:500px) and (max-width:540px){
+    .navBar{
+
+        display: flex;
+        gap: 15%;
+        padding: 1%;
+        border: none;
+        color: antiquewhite;
+        padding-left: 0;
+        background-color: rgb(39, 182, 182);
+    }
+    #nav{
+        display: flex;
+        margin-top: 3%;
+        font-size: 1rem;
+        gap: 15%;
+        width: auto;
+    }
+    .body{
+        display: flex;
+        gap: 6%;
+        flex-direction: column;
+        padding-top: 5%;
+        margin-left: 1.5%;
+    }
+    .img{
+        border-radius: 15%;
+        width: 25em;
+        height: auto;
+        border: none;
+        margin-left: 13%;
+        margin-top: 15%;
+        box-shadow: 20px 20px 60px #9EAFAF, -20px -20px 60px #7DCBC8;
+        border-radius: 20px;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    #o{
+        color: rgb(199, 245, 33);
+    
+    }
+    b{
+        margin-left: 0.5%;
+        font-size: 1rem;
+        margin-bottom: 50px;
+    }
+    p{
+        font-size: 1.5rem;
+        font-weight: lighter;
+    }
+    .button{
+        padding: 2.5%;
+        border-radius: 15px;
+        background-color: rgb(173, 212, 31);
+        color:white;
+        font-size: 1rem;
+        border: none;
+        margin-top: 5%;
+        
+    }
+    .logo{
+        width:60%;
+        margin-top: -5%;
+    } 
+}
+@media  screen and (min-width:560px) and (max-width:600px){
+    .navBar{
+
+        display: flex;
+        gap: 15%;
+        padding: 1%;
+        border: none;
+        color: antiquewhite;
+        padding-left: 0;
+        background-color: rgb(39, 182, 182);
+    }
+    #nav{
+        display: flex;
+        margin-top: 3%;
+        font-size: 0.95rem;
+        gap: 15%;
+        width: auto;
+    }
+    .body{
+        display: flex;
+        gap: 6%;
+        flex-direction: column;
+        padding-top: 5%;
+        margin-left: 1.5%;
+    }
+    .img{
+        border-radius: 15%;
+        width: 1em;
+        height: auto;
+        border: none;
+        margin-left: 15%;
+        margin-top: 15%;
+        box-shadow: 20px 20px 60px #9EAFAF, -20px -20px 60px #7DCBC8;
+        border-radius: 20px;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    #o{
+        color: rgb(199, 245, 33);
+    
+    }
+    b{
+        margin-left: 0.5%;
+        font-size: 1rem;
+        margin-bottom: 50px;
+    }
+    p{
+        font-size: 1.5rem;
+        font-weight: lighter;
+    }
+    .button{
+        padding: 2.5%;
+        border-radius: 15px;
+        background-color: rgb(173, 212, 31);
+        color:white;
+        font-size: 1rem;
+        border: none;
+        margin-top: 5%;
+        
+    }
+    .logo{
+        width:60%;
+        margin-top: -5%;
+    } 
+}
+@media  screen and (min-width:700px) and (max-width:800px){
+    .navBar{
+
+        display: flex;
+        gap: 15%;
+        padding: 1%;
+        border: none;
+        color: antiquewhite;
+        padding-left: 0;
+        background-color: rgb(39, 182, 182);
+    }
+    #nav{
+        display: flex;
+        margin-top: 2%;
+        font-size: 1.55rem;
+        gap: 15%;
+        width: auto;
+    }
+    .body{
+        display: flex;
+        gap: 6%;
+        flex-direction: column;
+        padding-top: 5%;
+        margin-left: 1.5%;
+    }
+    .img{
+        border-radius: 15%;
+        width: 30em;
+        height: auto;
+        border: none;
+        margin-left: 15%;
+        margin-top: 15%;
+        box-shadow: 20px 20px 60px #9EAFAF, -20px -20px 60px #7DCBC8;
+        border-radius: 20px;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    #o{
+        color: rgb(199, 245, 33);
+    
+    }
+    b{
+        margin-left: 0.5%;
+        font-size: 1rem;
+        margin-bottom: 50px;
+    }
+    p{
+        font-size: 1.5rem;
+        font-weight: lighter;
+    }
+    .button{
+        padding: 2.5%;
+        border-radius: 15px;
+        background-color: rgb(173, 212, 31);
+        color:white;
+        font-size: 1rem;
+        border: none;
+        margin-top: 5%;
+        
+    }
+    .logo{
+        width:60%;
+        margin-top: -5%;
+    } 
+}
+@media  screen and (min-width:810px) and (max-width:930px){
+    .navBar{
+
+        display: flex;
+        gap: 15%;
+        padding: 1%;
+        border: none;
+        color: antiquewhite;
+        padding-left: 0;
+        background-color: rgb(39, 182, 182);
+    }
+    #nav{
+        display: flex;
+        margin-top: 2%;
+        font-size: 1.55rem;
+        gap: 15%;
+        width: auto;
+    }
+    .body{
+        display: flex;
+        gap: 6%;
+        flex-direction: column;
+        padding-top: 5%;
+        margin-left: 1.5%;
+    }
+    .img{
+        border-radius: 15%;
+        width: 30em;
+        height: auto;
+        border: none;
+        margin-left: 15%;
+        margin-top: 15%;
+        box-shadow: 20px 20px 60px #9EAFAF, -20px -20px 60px #7DCBC8;
+        border-radius: 20px;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    #o{
+        color: rgb(199, 245, 33);
+    
+    }
+    b{
+        margin-left: 0.5%;
+        font-size: 1rem;
+        margin-bottom: 50px;
+    }
+    p{
+        font-size: 1.5rem;
+        font-weight: lighter;
+    }
+    .button{
+        padding: 2.5%;
+        border-radius: 15px;
+        background-color: rgb(173, 212, 31);
+        color:white;
+        font-size: 1rem;
+        border: none;
+        margin-top: 5%;
+        
+    }
+    .logo{
+        width:60%;
+        margin-top: -5%;
+    } 
+}
+@media  screen and (min-width:1000px) and (max-width:1200px){
+    .navBar{
+
+        display: flex;
+        gap: 15%;
+        padding: 1%;
+        border: none;
+        color: antiquewhite;
+        padding-left: 0;
+        background-color: rgb(39, 182, 182);
+    }
+    #nav{
+        display: flex;
+        margin-top: 2%;
+        font-size: 1.55rem;
+        gap: 15%;
+        width: auto;
+    }
+    .body{
+        display: flex;
+        gap: 20%;
+        padding-top: 5%;
+        margin-left: 1.5%;
+    }
+    .img{
+        border-radius: 15%;
+        width: 20em;
+        height: auto;
+        border: none;
+        margin-right: 5%;
+        margin-top: 5%;
+        box-shadow: 20px 20px 60px #9EAFAF, -20px -20px 60px #7DCBC8;
+        border-radius: 20px;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    #o{
+        color: rgb(199, 245, 33);
+    
+    }
+    b{
+        margin-left: 0.5%;
+        font-size: 1rem;
+        margin-bottom: 50px;
+    }
+    p{
+        font-size: 1.5rem;
+        font-weight: lighter;
+    }
+    .button{
+        padding: 2.5%;
+        border-radius: 15px;
+        background-color: rgb(173, 212, 31);
+        color:white;
+        font-size: 1rem;
+        border: none;
+        margin-top: 5%;
+        
+    }
+    .logo{
+        width:60%;
+        margin-top: -5%;
+    } 
+}
+@media  screen and (min-width:1210px) and (max-width:1280px){
+    .navBar{
+
+        display: flex;
+        gap: 15%;
+        padding: 1%;
+        border: none;
+        color: antiquewhite;
+        padding-left: 0;
+        background-color: rgb(39, 182, 182);
+    }
+    #nav{
+        display: flex;
+        margin-top: 2%;
+        font-size: 1.55rem;
+        gap: 15%;
+        width: auto;
+    }
+    .body{
+        display: flex;
+        gap: 20%;
+        padding-top: 5%;
+        margin-left: 1.5%;
+    }
+    .img{
+        border-radius: 15%;
+        width: 20em;
+        height: auto;
+        border: none;
+        margin-right: 5%;
+        margin-top: 5%;
+        box-shadow: 20px 20px 60px #9EAFAF, -20px -20px 60px #7DCBC8;
+        border-radius: 20px;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    #o{
+        color: rgb(199, 245, 33);
+    
+    }
+    b{
+        margin-left: 0.5%;
+        font-size: 1rem;
+        margin-bottom: 50px;
+    }
+    p{
+        font-size: 1.5rem;
+        font-weight: lighter;
+    }
+    .button{
+        padding: 2.5%;
+        border-radius: 15px;
+        background-color: rgb(173, 212, 31);
+        color:white;
+        font-size: 1rem;
+        border: none;
+        margin-top: 5%;
+        
+    }
+    .logo{
+        width:60%;
+        margin-top: -5%;
+    } 
+}

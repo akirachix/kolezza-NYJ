@@ -1,0 +1,355 @@
+.header-text{
+    text-align: center;
+    font-size: xx-large;
+}
+.blog-section{
+    font-family: Inter, sans-serif;
+    
+}
+
+.author-section{
+    border: none;
+    box-shadow: 20px 20px 60px #9eafaf, -20px -20px 60px #7dcbc8;
+    border-radius: 20px;
+    width: 30%;
+    height: 43rem;
+    margin-left: 35%;
+    
+}
+.book{
+    width: 30%;
+    height: 40%;
+    margin-left: 35%;
+    margin-top: 7px;
+}
+.author-section p{
+    text-align: center;
+    font-size: 17px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.author-section h2{
+    margin-top: 8px;
+    text-align: center;
+}
+.social-section{
+    border-radius: 20px;
+    box-shadow: 20px 20px 60px #796e6a, -20px -20px 60px #e2cec8;
+    width: 25%; 
+    font-size: 1rem;
+    height: 44rem;   
+}
+.societal-image{
+    width: 40%;
+    height: 40%;
+    margin-left: 30%;
+}
+.social-section h2{
+    text-align: center;
+    margin-top: 8px;
+    font-size: 1rem;
+}
+.social-section p{
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 1rem;
+}
+.political-section{
+    box-shadow: 20px 20px 60px #dae1e8, -20px -20px 60px #dae1e8;
+    border-radius: 20px;
+    width: 25%;
+    height: 44rem;
+    font-size: 1rem;
+}
+.political-image{
+    width: 40%;
+    height: 40%;
+    margin-left: 30%;
+}
+.political-section h2{
+    text-align: center;
+    margin-top: 8px;
+    font-size: 1rem;
+}
+.political-section p{
+    text-align: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 1rem;
+}
+.economic-section{
+    box-shadow: 20px 20px 60px #c6b591, -20px -20px 60px #d9ba77;
+    border-radius: 20px;
+    width: 25%;
+    font-size: 1rem;
+    height: 44rem;
+}
+.economic-image{
+    width: 40%;
+    height: 40%;
+    margin-left: 30%;
+}
+.economic-section h2{
+    text-align: center;
+    margin-top: 8px;
+    font-size: 1rem;
+}
+.economic-section p{
+    text-align: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 1rem;
+}
+.book-section{
+    display: flex;
+    margin-top: 100px;
+    gap: 3%;
+    justify-content: center;
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .author-section {
+      width: 60%;
+      margin-left: 20%;
+      height: 50rem;
+      font-size: 26px;
+    }
+  
+    .book {
+      width: 50%;
+      margin-left: 25%;
+    }
+    .social-section{
+        border-radius: 20px;
+        width: 95%;
+        height: 50rem;  
+    }
+    .societal-image{
+        width: 40%;
+        height: 40%;
+        margin-left: 30%;
+    }
+    .social-section h2{
+        text-align: center;
+        margin-top: 8px;
+    }
+    .social-section p{
+        text-align: center;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .political-section{
+        border-radius: 20px;
+        width: 95%;
+        height: 45rem;
+        margin-top: 20px;
+    }
+    .political-image{
+        width: 40%;
+        height: 40%;
+        margin-left: 30%;
+    }
+    .political-section h2{
+        text-align: center;
+        margin-top: 8px;
+    }
+    .political-section p{
+        text-align: center;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .economic-section{
+        border-radius: 20px;
+        width: 95%;
+        height: 45rem;
+        margin-top: 20px;
+    }
+    .economic-image{
+        width: 40%;
+        height: 40%;
+        margin-left: 30%;
+    }
+    .economic-section h2{
+        text-align: center;
+        margin-top: 8px;
+    }
+    .economic-section p{
+        text-align: center;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .book-section{
+        flex-direction: column;
+        margin-left: 5%;
+        margin-top: 100px;
+        gap: 10%;
+        font-size: 20px;
+    }
+  
+
+
+
+  }
+
+  @media (max-width: 767px) {
+    .author-section {
+      width: 80%;
+      margin-left: 10%;
+      height: auto;
+    }
+  
+    .book {
+      width: 80%;
+      margin-left: 10%;
+      height: auto;
+    }
+  
+    .social-section,
+    .political-section
+     {
+      width: 80%;
+      height: 50rem;
+      margin-left: 10%;
+    }
+    .economic-section{
+        width: 80%;
+        height: 60rem;
+        margin-left: 10%;
+    }
+  
+    .societal-image,
+    .political-image,
+    .economic-image {
+      width: 60%;
+      height: auto;
+      margin-left: 20%;
+    }
+  
+    .book-section {
+      flex-direction: column;
+      gap: 2rem;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .author-section {
+        width: 80%;
+        margin-left: 10%;
+        height: auto;
+      }
+    
+      .book {
+        width: 80%;
+        margin-left: 10%;
+        height: auto;
+      }
+    
+      .social-section,
+      .political-section
+       {
+        width: 80%;
+        height: 60rem;
+        margin-left: 10%;
+      }
+      .economic-section{
+          width: 80%;
+          height: 75rem;
+          margin-left: 10%;
+      }
+    
+      .societal-image,
+      .political-image,
+      .economic-image {
+        width: 60%;
+        height: auto;
+        margin-left: 20%;
+      }
+    
+      .book-section {
+        flex-direction: column;
+        gap: 2rem;
+      }
+  }
+ 
+
+  @media (min-width: 1221px) and (max-width: 1280px) {
+    .author-section {
+        width: 60%;
+        margin-left: 20%;
+        height: 50rem;
+        font-size: 26px;
+      }
+    
+      .book {
+        width: 50%;
+        margin-left: 25%;
+      }
+      .social-section{
+          border-radius: 20px;
+          width: 95%;
+          height: 50rem;  
+      }
+      .societal-image{
+          width: 40%;
+          height: 40%;
+          margin-left: 30%;
+      }
+      .social-section h2{
+          text-align: center;
+          margin-top: 8px;
+      }
+      .social-section p{
+          text-align: center;
+          padding-left: 15px;
+          padding-right: 15px;
+      }
+      .political-section{
+          border-radius: 20px;
+          width: 95%;
+          height: 45rem;
+          margin-top: 20px;
+      }
+      .political-image{
+          width: 40%;
+          height: 40%;
+          margin-left: 30%;
+      }
+      .political-section h2{
+          text-align: center;
+          margin-top: 8px;
+      }
+      .political-section p{
+          text-align: center;
+          padding-right: 15px;
+          padding-left: 15px;
+      }
+      .economic-section{
+          border-radius: 20px;
+          width: 95%;
+          height: 45rem;
+          margin-top: 20px;
+      }
+      .economic-image{
+          width: 40%;
+          height: 40%;
+          margin-left: 30%;
+      }
+      .economic-section h2{
+          text-align: center;
+          margin-top: 8px;
+      }
+      .economic-section p{
+          text-align: center;
+          padding-right: 15px;
+          padding-left: 15px;
+      }
+      .book-section{
+          flex-direction: column;
+          margin-left: 5%;
+          margin-top: 100px;
+          gap: 10%;
+          font-size: 20px;
+      }
+  }
