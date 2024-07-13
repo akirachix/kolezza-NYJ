@@ -1,0 +1,278 @@
+footer {
+  background-color: #f1f1f1;
+}
+
+.footer-container {
+  max-width: 1300px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  align-items: center;
+  background-color: #00958F;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.footer-content > div {
+  flex: 1;
+  text-align: left;
+  margin: 0 20px;
+}
+
+.footer-content h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer-content li {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+.footer-content li svg {
+  margin-right: 8px;
+  font-size: 16px;
+}
+
+.logo {
+  width: 200%;
+  height: auto;
+  margin-left: -140px;
+}
+
+.copyright-text{
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+}
+
+.copyrighttext svg {
+  margin-right: 5px;
+}
+
+.headings {
+  color: #D7DB13;
+}
+
+.copyrightcontainer::before {
+  content: "";
+  display: block;
+  width: 100%;
+  max-width: 1200px;
+  height: 2px;
+  background: black;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+
+
+
+  @media screen and (min-width:280px) and (max-width:360px){
+    .footer-container {
+      max-width: 1300px;
+      flex-direction: column;
+      align-items: center;
+      background-color: #00958F;
+    }
+
+    .footer-content {
+      flex-direction: column;
+      width: 100%;
+      margin-bottom: 30px;     
+    }
+
+    ::before {
+      content: "";
+      display: block;
+      width: 90%; 
+      max-width: 1200px; 
+      height: 2px;
+      background: black;
+      position: absolute;
+      top: 75%;
+      left: 50%;
+      transform: translateX(-50%);
+  }
+  
+
+   
+
+   
+
+ }
+
+
+ @media screen and (min-width:361px) and (max-width:480px){
+  .footer-container {
+    max-width: 1300px;
+    flex-direction: column;
+   
+    background-color: #00958F;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 200px;
+  }
+
+  
+
+  ::before {
+    content: "";
+    display: block;
+    width: 90%; 
+    max-width: 1200px; 
+    height: 2px;
+    background: black;
+    position: absolute;
+    top: 63%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.getintouch{
+ align-items: center;
+}
+
+
+    
+      
+    
+ }
+
+
+ @media screen and (min-width:481px) and (max-width:680px){
+  ::before {
+    content: "";
+    display: block;
+    width: 90%; 
+    max-width: 1200px; 
+    height: 2px;
+    background: black;
+    position: absolute;
+    top: 84%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.footer-container {
+  max-width: 1300px;
+  flex-direction: column;
+  font-size: 20px;
+  background-color: #00958F;
+}
+
+.footer-content {
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 30px;
+  font-size: 10px;
+}
+
+ } 
+ 
+ 
+
+ @media screen and (min-width:681px) and (max-width:880px){
+
+  ::before {
+    content: "";
+    display: block;
+    width: 90%; 
+    max-width: 1200px; 
+    height: 2px;
+    background: black;
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+ }
+ 
+
+
+    
+  
+    
+ 
+
+ @media screen and (min-width:881px) and (max-width:1020px){
+  ::before {
+    content: "";
+    display: block;
+    width: 90%; 
+    max-width: 1200px; 
+    height: 2px;
+    background: black;
+    position: absolute;
+    top: 44%;
+    left: 50%;
+    transform: translateX(-50%);
+} 
+
+.footer-container {
+  max-width: 1300px;
+  flex-direction: column;
+  font-size: 20px;
+  background-color: #00958F;
+}
+
+.footer-content {
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 30px;
+  font-size: 10px;
+}
+
+
+ }
+
+ @media screen and (min-width:1021px) and (max-width:1280px){
+  ::before {
+    content: "";
+    display: block;
+    width: 90%; 
+    max-width: 1200px; 
+    height: 2px;
+    background: black;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+   
+   
+
+ }
+
+ @media screen and (min-width:1281px) and (max-width:1480px){
+  ::before {
+    content: "";
+    display: block;
+    width: 90%; 
+    max-width: 1200px; 
+    height: 2px;
+    background: black;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+  
+ }
